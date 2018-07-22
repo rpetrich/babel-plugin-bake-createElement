@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-bake-createElement",
+  "version": "0.0.1",
+  "description": "Bake calls to ceviche.createElement and ceviche.h",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "babel --plugins babel-plugin-transform-react-jsx,./plugin example.js -o example_out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpetrich/babel-plugin-bake-createElement.git"
+  },
+  "keywords": [
+    "optimization",
+    "babel",
+    "ceviche"
+  ],
+  "author": "Ryan Petrich <rpetrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpetrich/babel-plugin-bake-createElement/issues"
+  },
+  "homepage": "https://github.com/rpetrich/babel-plugin-bake-createElement#readme",
+  "peerDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-traverse": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
